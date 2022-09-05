@@ -11,3 +11,8 @@ Pembuatan project baru bernama **flutter_plugin_pubdev** di aplikasi vscode.
 ![Screenshot](images/repository_pluginpubdev.png)
 
 Pembuatan repository baru bernama **flutter_plugin_pubdev** di GitHub.
+
+3. Menambahkan Plugin
+![Screenshot](images/auto_size_text.png)
+
+Penambahan plugin lewat terminal. Gambar diatas merupakan *before* (gambar kiri) dan *after* (gambar kanan) setelah perintah **flutter pub add auto_size_text** dijalankan pada terminal.
