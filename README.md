@@ -1,16 +1,13 @@
-# flutter_plugin_pubdev
+# Laporan Praktikum
 
-A new Flutter project.
+## Buat Project Baru
 
-## Getting Started
+1. Project Baru di vscode
+![Screenshot](images/projectbaru_flutter.png)
 
-This project is a starting point for a Flutter application.
+Pembuatan project baru bernama **flutter_plugin_pubdev** di aplikasi vscode.
 
-A few resources to get you started if this is your first Flutter project:
+2. Repository baru di GitHub
+![Screenshot](images/repository_pluginpubdev.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Pembuatan repository baru bernama **flutter_plugin_pubdev** di GitHub.
