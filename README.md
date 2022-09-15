@@ -43,4 +43,5 @@ Perbedaan ada pada parameter child. pada widget pertama (atas), widget **child**
 ## Running aplikasi final
 ![Screenshot](images/running_aplikasi_final.png)
 > Pada _running final_ aplikasi, dapat dilihat bahwa pada tulisan "You have pushed the button this many times:" yang atas berwarna merah dan memiliki background berwarna kuning. Ini disebabkan oleh warna text yang sudah diatur warna dari pengimportan widget **RedTextWidget** pada **file main.dart**. Untuk lebar sendiri diberi nilai 50. 
+
 > Sedangkan pada tulisan "You have pushed the button this many times:" yang bawah, teks tetap berwarna hitam dan background berwarna hijau karena pada kode dicantumkan perintah **color: Colors.greenAccent**. Untuk lebar sendiri diberi nilai 100.
