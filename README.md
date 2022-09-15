@@ -20,7 +20,7 @@
 
 ## 4. Tambah Widget AutoSizeText
 ![Screenshot](images/error_auto_size_text.png)
-> Tampilan kode setelah auto size text ditambahkan, terdapat *error* pada tulisan ***AutoSizeText*** dan ***text***. *Error* ini disebabkan karena 
+> Tampilan kode setelah auto size text ditambahkan, terdapat *error* pada tulisan ***AutoSizeText*** dan ***text***. *Error* ini disebabkan karena library auto size text belum dipanggil.
 
 ## 5. Buat Variabel text dan parameter di constructor
 ![Screenshot](images/variabel_text.png)
@@ -29,9 +29,9 @@
 ## 6. Tambahkan widget di main.dart
 ![Screenshot](images/tambah_widget_main.dart.png)
 > Pada widget yang pertama terdapat parameter color, width, child dan text.
-- Parameter color berfungsi mengatur warna _background_ teks. 
-- Parameter width berfungsi mengatur lebar _background_ teks.
-- Parameter child berfungsi memasukkan RedTextWidget ke dalam widget container. 
+    - Parameter color berfungsi mengatur warna _background_ teks. 
+    - Parameter width berfungsi mengatur lebar _background_ teks.
+    - Parameter child berfungsi memasukkan RedTextWidget ke dalam widget container. 
 
 ## Running aplikasi final
 ![Screenshot](images/running_aplikasi_final.png)
