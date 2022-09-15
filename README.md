@@ -27,3 +27,18 @@
 ## 4. Tambah Widget AutoSizeText
 ![Screenshot](images/error_auto_size_text.png)
 > Tampilan kode setelah auto size text ditambahkan, terdapat *error* pada tulisan ***AutoSizeText*** dan ***text***. *Error* ini disebabkan karena 
+
+## 5. Buat Variabel text dan parameter di constructor
+![Screenshot](images/variabel_text.png)
+> Langkah ini bertujuan untuk mengatur tipe data dan membuat _constructor_ untuk text yang berwarna merah.
+
+## 6. Tambahkan widget di main.dart
+![Screenshot](images/tambah_widget_main.dart.png)
+> Pada widget yang pertama terdapat parameter color, width, child dan text.
+- Parameter color berfungsi mengatur warna _background_ teks. 
+- Parameter width berfungsi mengatur lebar _background_ teks.
+- Parameter child berfungsi memasukkan RedTextWidget ke dalam widget container. 
+
+## Running aplikasi final
+![Screenshot](images/running_aplikasi_final.png)
+> Pada _running final_ aplikasi, dapat dilihat bahwa pada tulisan "You have pushed the button this many times:" yang atas berwarna merah dan memiliki background berwarna kuning. Ini disebabkan oleh karena warna text yang sudah diatur warna kuning dan pengimportan widget **RedTextWidget** pada **file main.dart**. 
