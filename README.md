@@ -28,12 +28,12 @@
 
 ## 6. Tambahkan widget di main.dart
 ![Screenshot](images/tambah_widget_main.dart.png)
-> Pada widget yang pertama terdapat parameter color, width, child dan text.
+> Pada widget pertama terdapat parameter :
 - Parameter color berfungsi mengatur warna _background_ teks. 
 - Parameter width berfungsi mengatur lebar _background_ teks.
 - Parameter child berfungsi memasukkan RedTextWidget ke dalam widget container. 
 
-> Pada widget kedua terdapat parameter 
+> Pada widget kedua terdapat parameter :
 - Parameter color berfungsi mengatur warna _background_ teks. 
 - Parameter width berfungsi mengatur lebar _background_ teks.
 - Parameter child berfungsi memasukkan Text ke dalam widget container. 
