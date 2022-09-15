@@ -33,8 +33,14 @@
 - Parameter width berfungsi mengatur lebar _background_ teks.
 - Parameter child berfungsi memasukkan RedTextWidget ke dalam widget container. 
 
+> Pada widget kedua terdapat parameter 
+- Parameter color berfungsi mengatur warna _background_ teks. 
+- Parameter width berfungsi mengatur lebar _background_ teks.
+- Parameter child berfungsi memasukkan Text ke dalam widget container. 
+
+Perbedaan ada pada parameter child. pada widget pertama (atas), widget **child** memunculkan atribut **RedTextWidget** dari **file red_text_widget.dart**. Sedangkan pada widget kedua (bawah), widget child memunculkan Text tanpa atribut.
+
 ## Running aplikasi final
 ![Screenshot](images/running_aplikasi_final.png)
-> Pada _running final_ aplikasi, dapat dilihat bahwa pada tulisan "You have pushed the button this many times:" yang atas berwarna merah dan memiliki background berwarna kuning. Ini disebabkan oleh karena warna text yang sudah diatur warna kuning dan pengimportan widget **RedTextWidget** pada **file main.dart**. Untuk lebar sendiri diberi nilai 50. 
+> Pada _running final_ aplikasi, dapat dilihat bahwa pada tulisan "You have pushed the button this many times:" yang atas berwarna merah dan memiliki background berwarna kuning. Ini disebabkan oleh warna text yang sudah diatur warna dari pengimportan widget **RedTextWidget** pada **file main.dart**. Untuk lebar sendiri diberi nilai 50. 
 > Sedangkan pada tulisan "You have pushed the button this many times:" yang bawah, teks tetap berwarna hitam dan background berwarna hijau karena pada kode dicantumkan perintah **color: Colors.greenAccent**. Untuk lebar sendiri diberi nilai 100.
-> Perbedaan pada kedua _widget_ diatas adalah metode yang dipakai. Pada kedua tulisan, _background_ langsung diatur lewat file **main.dart**, sedangkan untuk warna teks, teks yang atas lewat **RedTextWidget**, sedangkan teks yang bawah langsung dari file **main.dart**. Untuk lebar, teks yang atas 50 dan teks yang bawah 100. 
